@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h3>Contact Me</h3>
+        <form>
+<form method="post">
+    <fieldset>
+        <legend>Contact Information</legend>
+
+        <label>First Name:</label>
+        <input type="text" name="first_name" required>
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="last_name" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+
+                
+        <label>Company:</label>
+        <input type="text" name="company">
+        <br><br>
+
+        <label>Reason of Contact:</label><br>
+        <input type="radio" name="reason" value="Projects" required> Projects<br>
+        <input type="radio" name="reason" value="Thesis"> Thesis<br>
+        <input type="radio" name="reason" value="Job"> Job
+        <br><br>
+
+        <label>Topics:</label><br>
+        <input type="checkbox" name="topics[]" value="Web Development" required> Web Development<br>
+        <input type="checkbox" name="topics[]" value="Mobile Development"> Mobile Development<br>
+        <input type="checkbox" name="topics[]" value="AI/ML Development"> AI/ML Development
+        <br><br>
+
+        <label>Consultation Date:</label>
+        <input type="date" name="consultation_date" required>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+
+            </table>
+
+        </fieldset>
+
+    </form>
+
+    <br>
+    <a href="../index.html">Back to Home</a>
+
+    </form>
+</body>
+</html>

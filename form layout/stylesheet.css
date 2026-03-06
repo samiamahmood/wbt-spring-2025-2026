@@ -1,0 +1,43 @@
+body{
+background-color:whitesmoke;
+font-family:Arial;
+margin: left 40px;
+}
+
+form
+{
+    width: 500px;
+}
+
+h2{
+    color: red;
+    margin-top: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 180px;
+    margin-top: 8px;
+}
+
+input[type=text],
+input[type=email],
+select{
+    width: 220px;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+textarea{
+    width: 400px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 6px 15px;
+    margin-top: 15px;
+}
+
+.star{
+    color:red
+}
