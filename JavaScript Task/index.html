@@ -1,0 +1,42 @@
+<html>
+   <head><title> JS Assesment</title></head>
+   <body>
+    <h3>Tasks:</h3>
+    <script>
+        console.log("Task Swap");
+        let a = 60;
+        let b = 20;
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        console.log("a =", a);
+        console.log("b =", b);
+
+        console.log("Task Square");
+        function Square(n) 
+        {
+           return n * n;
+        }
+        for(let i = 1; i<= 10; i++)
+        {
+            console.log("Square of: ",i,"=",Square(i));
+        }
+        console.log("Task Find the Largest ");
+        let numbers = [10, 23, 44, 60, 80];
+
+                let largest = numbers[0];
+
+         for (let i = 1; i < numbers.length; i++) {
+                if (numbers[i] > largest) {
+                    largest = numbers[i];
+                }
+            }
+
+           console.log("Largest number:", largest);
+
+     </script>
+     
+   </body>
+</html>
