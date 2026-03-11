@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Student Registration</h2>
+
+<form id="form">
+
+Name
+<input type="text" id="name"> <br>
+<span id="errName" class="errMsg"></span>
+
+<br><br>
+
+Age
+<input type="number" id="age"> <br> 
+<span id="errAge" class="errMsg"></span>
+
+<br><br>
+
+Course
+<select id="course">
+<option value="">Select</option>
+<option>Ml</option>
+<option>Webtech</option>
+<option>Maths</option>
+</select>
+<br>
+<span id="errCourse" class="errMsg"></span>
+<br><br>
+
+<button type="button" id="RegistrationForm">Add Student</button>
+
+</form>
+
+<br>
+
+<table border="1" id="table">
+
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Course</th>
+<th>Action</th>
+</tr>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>

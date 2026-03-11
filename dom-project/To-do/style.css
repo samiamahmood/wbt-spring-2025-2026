@@ -1,0 +1,22 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+
+li
+{
+    padding: 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+.completed
+{
+    text-decoration: line-through;
+    color: beige;
+}
+ #error
+ {
+    color: tomato;
+ }

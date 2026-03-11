@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>Profile Card Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Profile Card</h2>
+
+  
+  
+
+  <div id="card">
+
+    <h3 id="pname">Your Name</h3>
+    <p id="pbio">Your Bio</p>
+    <ul id="hobbyList"></ul>
+  </div>
+
+  <div>
+    <span id="errName" class="errHobby"></span><br>
+    <input placeholder="Your Name" id="name">
+
+    
+    <input placeholder="Bio" id="bio">
+
+    <button onclick="updateProfile()">Update</button>
+  </div>
+
+  <span id="errHobby" class="errHobby"></span><br>
+  <input placeholder="Add your hobby" id="hobby">
+  <button id="addHbby" onclick="addHobby()">Add Hobby</button>
+  
+  <script src="script.js"></script>
+</body>
+
+
+</html>
